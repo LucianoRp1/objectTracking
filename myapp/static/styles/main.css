@@ -1,0 +1,120 @@
+body{
+  background: #1c1e2c;
+  overflow-x: hidden; 
+}
+.menu{
+    padding: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0;
+   
+  }
+  .menu-1{
+    background: linear-gradient(109.61deg, #2c2f45 4.26%, #202333 84.84%);
+    width: 100vw;
+  }
+  .menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .menu li{
+    display: inline-block;
+    margin: 0 15px;
+  }
+  .menu a{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color:#1ee98a;
+    display: block;
+    position: relative;
+    padding: 4px 0;
+    transition: 0.5s transform ease;
+  }
+  .menu a:hover{
+    transition: 0.5s transform ease;
+    color: #d7dad8;
+  }
+  .menu a::before{
+    content: "";
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    transition: 0.5s transform ease;
+    transform: scale3d(0,1,1);
+    transform-origin: 0 50%;
+  }
+  .menu a:hover::before{
+    transform: scale3d(1,1,1);
+  }
+  .menu-1 a::before{
+    background: #cacaca;
+    transform-origin: 100% 50%;
+  }
+  .menu-1 a:hover::before{
+    transform-origin: 0 50%;
+  }
+
+/* project css */
+
+.h1_project{
+  text-decoration: line;
+  display: flex;
+  font-weight: bold;
+  color: #ebf0ee;
+  /* text-shadow: 3px 2px #b4b1b1; */
+  justify-content: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+ .description{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #000000;
+}
+.a_description {
+  text-decoration: none;
+  font-size: 25px;
+  color: #1ee98a;
+} 
+ 
+.css_description{
+  /* padding: 20px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill,610px);
+  margin: 20px;
+  background-color: transparent;
+  align-content: center;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  align-items: center;
+}
+
+.img_description{
+  width: 50vw;
+}
+
+.slider_css{
+  margin-left: 50px;
+}
+ /* css object tracking */
+
+.object_css{
+  display: flex;
+  justify-content: center;
+}
+
+.video_css{
+  display: flex;
+  justify-content: center;
+}
+.video_feed_css{
+  display: flex;
+  justify-content: center;
+}

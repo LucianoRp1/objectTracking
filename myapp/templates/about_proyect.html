@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/about_proyect.css' %}">
+</head>
+<body>
+    {% block content %}
+    <div class='deck'>
+        <div class='card'>
+          <div class='cardBody'>
+            <p class='cardText'>El objetivo del proyecto fue desarrollar un sistema de detección de objetos en video que pudiera reconocer diferentes tipos de objetos en tiempo real. Para ello, se utilizó el framework de detección de objetos YOLOv5, que es una versión mejorada de YOLO
+                 que utiliza técnicas de deep learning para lograr una mayor precisión en la detección de objetos
+              <a class='cardText_highlight' href="https://github.com/ultralytics/yolov5" target="_blank"> #Yolov5 </a> <a class='cardText_highlight' href="https://opencv.org/" target="_blank"> #OpenCv </a> <a class='cardText_highlight' href="https://www.djangoproject.com/" target="_blank"> #Django </a> <a class='cardText_highlight' href="https://www.python.org/" target="_blank"> #Python </a></p>
+          </div>
+        </div>
+        <div class='card'>  
+          <div class='cardBody'>
+            <p class='cardText'>Se implementó el modelo de detección de objetos de YOLOv5 utilizando OpenCV para procesar el video y llevar a cabo la detección de objetos en tiempo real. Además, se utilizó Django como framework web para desarrollar una interfaz de usuario
+                 que permitiera a los usuarios visualizar los resultados de la detección de objetos en tiempo rea</p>
+            <section class='cardStats'>
+              </span>
+          </div>
+        </div>
+        <div class='card'>
+          <div class='cardBody'>
+            <p class='cardText'>Link del repositorio 
+              <span class='cardText_highlight'>https://github.com/LucianoRp1</span></p>
+          </div>
+        </div>
+      </div>
+      {% endblock %}
+</body>
+</html>
+  
